@@ -1,0 +1,196 @@
+
+.header{
+   background: url(../images/blogs/blog_hero.jpg);
+    background-size: cover;
+    height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content-box{
+	width: 475px;
+	height: 230px;
+	padding: 16px 30px;
+}
+.content-box .blog-auth{
+	margin-bottom: -5px;
+}
+
+.content-box p {
+    margin-top: 0px;
+   } 
+
+ .content-box h2 {
+    font-weight: 400;
+}  
+.media-list {
+    
+    list-style: none;
+}
+.media-body{
+	padding: 0px 5px;
+}
+.card{
+	margin-top: 176px;
+}
+.card-block{
+	width:301px;
+	-webkit-box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+   -moz-box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+    box-shadow: 0px 11px 27px -3px rgba(0,0,0,0.27);
+	padding: 12px 27px;
+    width: 301px;
+}
+.blog-right-p{
+	margin: 9px 0px -1px;
+	font-size: 14px;
+    font-weight: 400;
+
+}
+.email-card{
+	width: 301px;
+	margin-top:94px;
+	padding: 27px 0px 37px;
+	text-align: center;
+	-webkit-box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+    -moz-box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+    box-shadow: -1px 1px 31px -2px rgba(0,0,0,0.27);
+}
+
+.extra-s{
+	text-align: center;
+    max-width: 273px;
+    margin: 0px auto 22px;
+}
+.btn-submit{
+	background: #000;
+    color: #fff;
+    width: 83%;
+    height: 51px;
+    border: none;
+    font-size: 16px;
+    letter-spacing: .5px;
+    margin: 12px 0px 0px;
+
+}
+
+input.btn.btn-lg{
+	 width: 83%;
+    height: 51px;
+    text-align: left;
+    border: 3px solid red;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 14px;
+    color: #969696;
+    font-weight: 300;
+    cursor: default;
+   } 
+.nav-pills>li>a {
+    color: #000;
+     font-size: 16px;
+    font-weight: 500;
+   /* margin: 0px -81px 0px 93px;*/
+    cursor: pointer;
+}
+
+.nav-pills{
+	  background: #fff;
+    padding: 30px 0px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+    box-shadow: -4px 6px 14px 0px rgba(0,0,0,0.4);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: red;
+    background-color: transparent;
+}
+
+.contributor{
+	background: url(../images/contributor.jpg);
+    padding: 100px 0px 100px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.pagination{
+  width: 542px;
+    height: 53px;
+    padding: 4px 10px;
+    margin: 110px 0px 25px;
+}
+
+.margin-right-45{
+    margin-right: 40px
+}
+
+.margin-left-45{
+    margin-left: 40px
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    color: red;
+    background: transparent;
+}
+.pagination>li>a{   
+    border: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    float: none;
+    padding: 6px 14px 0px 8px;
+    
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: red;
+    background-color: transparent;
+}
+.pagi-line1{
+    margin-top: 14px;
+    width: 11px;
+    background: #000;
+    height: 2px;
+    float: right;
+    margin-left: 0px;
+}
+
+.pagi-point1{
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid #000;
+    float: right;
+    margin-top: 11px;
+}
+.pagi-line2{
+   margin-top: 14px;
+    width: 11px;
+    background: #000;
+    height: 2px;
+    float: left;
+    margin-left: 6px;
+}
+
+.pagi-point2{
+   width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #000;
+    float: right;
+    margin-top: 11px;
+ }   
+
+ .margin-t6{
+  margin-top: 6px;
+}
