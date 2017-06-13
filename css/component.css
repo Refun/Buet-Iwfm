@@ -97,8 +97,14 @@ body{
   font-weight: 400;
   text-align: justify;
   max-width: 500px;
+  line-height: 25px;
 }
-
+.para-n-b{
+   font-size: 16px;
+  font-weight: 500;
+  text-align: justify;
+ 
+}
 .para-b{
    font-size: 18px;
   font-weight: 400;
@@ -159,11 +165,23 @@ a:hover,a:visited,a:focus{
 
 
 /*MARGIN AND PADDING*/
+.max-460{
+  max-width: 460px;
+}
 .max-width{
   max-width: 460px;
 }
 .padding-neu{
   padding: 0px 0px!important;
+}
+.margin-t20{
+   margin-top: 20px;
+}
+.margin-t11{
+  margin-top: -11px;
+}
+.margin-t55{
+  margin-top: 55px;
 }
 .margin-tb7{
   margin: -7px 0px 25px;
@@ -280,10 +298,11 @@ a:hover,a:visited,a:focus{
 }
 .light_para_b{
     font-size: 16px;
-    color: #969696;
-    font-weight: 300;
+    color: #6b6b6b;
+    font-weight: 400;
     text-align: justify;
-    max-width: 515px;
+    max-width: 431px;
+   
 }
 .white_para{
     color: #fff;
@@ -459,4 +478,29 @@ h2{
 
 .red-p{
   border-left: 4px solid #800000;
+}
+
+.education .education-list {
+    list-style-type: none;
+    padding: 8px 0px 13px;
+}
+
+ .education .education-list:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: #000;
+    left: 50px;
+    
+}
+
+.education .para-b{
+  color: #4b4b4b;
+  font-weight: 500;
+}
+.education p {
+    font-size: 16px;
+    margin-top: -6px;
 }

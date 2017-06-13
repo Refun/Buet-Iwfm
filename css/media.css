@@ -20,7 +20,18 @@
 }
 
 @media (max-width: 992px) {
- .table-header{
+  .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+    padding: 22px 56px 22px 56px;
+}
+.bd-r{
+    border-right: 0px;
+}
+   .qualification .card-box{
+    height: 685px;
+      
+   }
+  
+   .table-header{
       font-size: 10px;
       margin-left: 0px;
       margin-bottom: 0px;
@@ -51,7 +62,7 @@
 
 
 
-.tab-content{
+ .about .tab-content{
    padding: 0px 15px;
 }
 }
@@ -99,7 +110,15 @@
 
 
 @media(max-width:768px) {
-  
+  .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+    padding: 32px 6px 32px 6px;
+}
+   .nav-tabs>li{
+    width: 90px;
+  }
+  .nav-tabs {
+    margin: -97px 0px 48px 19px;
+}
 }
 
 @media(max-width: 600px) {
@@ -107,6 +126,14 @@
 }
 
 @media(max-width: 468px) {
+
+  .qualification .card-box{
+    height: 845px;
+    padding: 35px 10px 30px;
+   }
+   .qualification .education{
+     margin: 12px 0px 25px;
+   }
   .media-body{
    padding: 23px 2px;
 }

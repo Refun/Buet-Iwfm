@@ -137,6 +137,7 @@ body{
 .apply-bg{
   background: url('images/iwfm_currentstudents.jpg');
   height: 400px;
+  background-size: cover;
 }
 .apply-infos{
       padding: 61px 39px;
