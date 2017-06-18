@@ -14,6 +14,7 @@
 .header-info{
     float: right;
     margin-top: 40px;
+    margin-right: 23px
    
 }
 .navbar{
@@ -32,6 +33,13 @@
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
    background-color: #b10000;
   color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+   background: transparent;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
 }
 .dropdown-menu{
   background-color: #b10000;

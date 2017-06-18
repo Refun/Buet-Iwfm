@@ -13,6 +13,9 @@
 }
 
 @media(max-width: 1200px) {
+  .personal-info-nav {
+    float: left;
+  }
    .padd {
     padding: 0px 0px;
 }
@@ -60,7 +63,9 @@
     margin: 0px 8px 0px -2px;
 }
 
-
+.personal-info{
+  bottom: -36px;
+}
 
  .about .tab-content{
    padding: 0px 15px;
@@ -91,12 +96,20 @@
 }
 
 @media(max-width: 768px) and (min-width: 468px) {
-
-
+.media-body h2{
+    text-align: center;
+  }
+.personal-info{
+    display: inline-block;
+  }
 
 }
 
 @media(max-width: 1200px) {
+  .personal-info-nav .para-n {
+  
+    margin: 2px 14px 0px -20px;
+   }
 
   
 
@@ -110,9 +123,35 @@
 
 
 @media(max-width:768px) {
+ .members .media-left {
+    display: block;
+  }
+  .members .media-left img{
+    margin : auto;
+  }
+  
+  /*.media .faculty-info{
+    text-align: center;
+  }*/
+  
+  .media-body {
+    display: block;
+    /* padding: 23px 0px; */
+    max-width: 400px;
+    margin: auto;
+  }  
+  .media-body {
+    display: block;
+    padding: 23px 0px;
+  }
+  .personal-info-nav .para-n {
+    font-size: 14px;
+    margin: 2px 14px 0px -20px;
+   }
+
   .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
     padding: 32px 6px 32px 6px;
-}
+   }
    .nav-tabs>li{
     width: 90px;
   }
@@ -122,10 +161,45 @@
 }
 
 @media(max-width: 600px) {
- 
+  .news{
+    padding: 12px 9px 4px;
+  }
+  .education{
+    margin-left: -20px;
+  }
+ .education .education-list:before {
+    left: 11px;
+ }
+ .expand:after{
+   left: 111px;
+ }
+ .expand:before{
+    left: 100px;
+ }
 }
 
 @media(max-width: 468px) {
+  /*.logo {
+    margin-top: 40px;
+   } */
+  .header-info {
+   
+    margin-top: 14px;
+    margin-left: -24px;
+  }
+  .personal-info{
+    display: grid;
+  }
+  .bottomMenu{
+    display: none!important;
+  }
+  select{
+    margin: 21px 2px 15px
+  }
+  
+  .media-body .para-n{
+    font-size: 12px;
+  }
 
   .qualification .card-box{
     height: 845px;

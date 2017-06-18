@@ -15,7 +15,7 @@ body{
     font-size: 14px;
     padding: 0px 45px;
     border: none;
-    height: 47px;
+    height: 45px;
     margin: 50px 0px 0px;
     background: #fff;
     border: 1px solid #c4c4c4;
@@ -63,7 +63,7 @@ body{
 }
 .border{
     
-    background: #800000;
+    background: #dfc7c8;
     width: 100%;
     height: 1px;
 }
@@ -109,6 +109,12 @@ body{
    font-size: 18px;
   font-weight: 400;
   text-align: justify;
+}
+.para-l{
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  color: #a1a0a0;
 }
 
 /*PARAGRAPH*/
