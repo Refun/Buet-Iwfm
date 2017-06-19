@@ -115,6 +115,9 @@
     padding: 5px 13px 0px;
    
 }
+.degrees{
+      padding: 1px 0px 85px;
+}
 .degrees .news{
     background: #eee;
    margin: 11px 0px 49px;
@@ -235,7 +238,7 @@
 
 #assist .news-box{
   background: #fff;
-   padding: 19px 36px;
+   padding: 30px 36px 5px;
 
 }
 
@@ -246,6 +249,7 @@
 
 #assist .tab-content{
         padding: 12px 10px 18px;
+        height: auto;
 }
 
 #assist .card-box {

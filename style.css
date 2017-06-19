@@ -52,6 +52,11 @@ a.red-post{
     top: 1px;
     z-index: 9;
 }
+#home-about .nav-tabs{
+   position: sticky;
+    top: 1px;
+  }
+  
 .nav-tabs>li{
   margin-bottom: 0px;
   width: 50%;

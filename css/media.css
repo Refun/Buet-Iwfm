@@ -187,6 +187,9 @@
     width: 80px;
     
   }
+  .degrees .nav-tabs>li>a{
+    font-size: 12px;
+  }
  #single-members .members .media-left {
     display: block;
   }
