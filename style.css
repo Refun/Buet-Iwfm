@@ -45,9 +45,12 @@ a.red-post{
 }
 
 .nav-tabs{
-  border-top: transparent;
-  border-bottom: 1px solid #800000;
-  background: #eee;
+    border-top: transparent;
+    border-bottom: 1px solid #800000;
+    background: #eee;
+    position: sticky;
+    top: 1px;
+    z-index: 9;
 }
 .nav-tabs>li{
   margin-bottom: 0px;
@@ -132,7 +135,8 @@ a.red-post{
 
 #style-1::-webkit-scrollbar
 {
-
+  position: absolute;
+  left: 2px;
   width: 12px;
   background-color: #F5F5F5;
 }

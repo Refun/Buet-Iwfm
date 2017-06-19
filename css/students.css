@@ -287,6 +287,66 @@ inspired from http://codepen.io/Rowno/pen/Afykb
   z-index: 2;
   display: none;
 }
+.carousel-caption{
+  text-shadow: none;
+}
+.carousel {
+    position: relative;
+    top: 20px;
+}
+#facilities .apply-text {
+    position: relative;
+    top: 16px;
+    background: #f7f7f7;
+    width: 349px;
+    left: -75px;
+    font-size: 20px;
+    color: red;
+    height: 71px;
+}
+
+#facilities .apply-header {
+    font-size: 22px;
+    position: relative;
+    top: 23px!important;
+    left: -51px!important;
+    color: #800000;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color: #ac1f24;
+    border: 1px solid #fff;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 85%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+@media  (min-width: 768px){
+  .carousel-indicators {
+    bottom: 41px;
+  }
+}
 
 /*
 WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
