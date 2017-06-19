@@ -80,7 +80,9 @@
     position: fixed;
     top: 0px;
     width: 100%;
-    transition: .2s;
+   
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
 }
 
 .open > .dropdown-menu {
@@ -98,6 +100,7 @@
   -webkit-transform: scale(1, 0);
   transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
+  z-index: 999;
 }
 
 .caret-up {
