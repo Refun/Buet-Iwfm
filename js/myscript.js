@@ -8,8 +8,8 @@ $(function() {
   */// slider
   //Initialise Bootstrap Carousel Touch Slider
   $('a[href="#research"],a[href="#education"],a[href="#experience"],a[href="#publication"],a[href="#service"]').click(function(){
-      $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top
+      $('body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top - 100 + 'px'
       }, 500);
       return false;
   }); 
