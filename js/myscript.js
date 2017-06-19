@@ -19,13 +19,13 @@ $('#owl1').owlCarousel({
     rewind: true,
     autoplay:true,
     center: true,
-    mouseDrag: false,
+    mouseDrag: true,
     stagePadding: 40,
     autoplayTimeout: 500,
-    stopOnHover:true,
-    //autoplayHoverPause: true,
-     autoplayTimeout: 1000,
-    autoplaySpeed:  800,
+    //stopOnHover:true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 1000,
+    autoplaySpeed:  400,
     responsive:{
         0:{
             items:1
