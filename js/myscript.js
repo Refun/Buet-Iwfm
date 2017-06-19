@@ -9,7 +9,35 @@ $(function() {
   //Initialise Bootstrap Carousel Touch Slider
   
  
-
+//index page owl carousel
+$('#owl1').owlCarousel({
+    loop:true,
+    margin: 10,
+    dots : false,
+    nav:false,
+    loop: true,
+    rewind: true,
+    autoplay:true,
+    center: true,
+    mouseDrag: false,
+    stagePadding: 40,
+    autoplayTimeout: 500,
+    stopOnHover:true,
+    //autoplayHoverPause: true,
+     autoplayTimeout: 1000,
+    autoplaySpeed:  800,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
   
   $(".dropdown").hover(            
             function() {

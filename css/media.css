@@ -23,9 +23,60 @@
 }
 
 @media (max-width: 992px) {
-  .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
-    padding: 22px 56px 22px 56px;
+  .staffs .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    display: block;
+    width: 100%;
+  }
+
+  .circle {
+    margin: 11px auto 1px;
 }
+.staffs .margin-l30 {
+    margin-left: 11px;
+    margin-top: 5px;
+}
+  .staff-df{
+    position: relative;
+    left: 37px;
+    top: -24px;
+  }
+  
+  .footer-bottom{
+     padding: 27px 0px 16px;
+  }
+  .none{
+  display: none!important;
+}
+  .apply-text{
+    width: 279px;
+  }
+  .apply-info-bg{
+    height: auto;
+  }
+  .footer .links{
+    padding: 0px 12px;
+  }
+  .links.padding-neu{
+    padding: 0px 40px!important;
+  }
+  /*.degrees .nav-tabs{
+    border-bottom: 0px;
+  }*/
+  .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+      padding: 7px 1px 7px 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-top: 0px;
+}
+ .course-name .para-n{
+  max-width: 100%;
+ }
+.table>thead:first-child>tr:first-child>th {    
+    padding: 11px 0px 11px 0px;
+  }
+
 .bd-r{
     border-right: 0px;
 }
@@ -48,7 +99,7 @@
       margin: auto;
     }
     .f-r16{
-      font-size: 10px;
+      font-size: 12px;
     }
   .address {
     margin-top: 128px;
@@ -59,10 +110,10 @@
  	  height: auto;
  }
  
- .nav-tabs>li {
+ /*.nav-tabs>li {
     margin: 0px 8px 0px -2px;
 }
-
+*/
 .personal-info{
   bottom: -36px;
 }
@@ -91,12 +142,19 @@
 }
 
 @media(max-width: 992px) and (min-width: 468px) {
+   .staffs .margin-neu {
+    margin: -11px 0px;
+}
 
 
 }
 
 @media(max-width: 768px) and (min-width: 468px) {
-.media-body h2{
+  .collborator .semi-header {
+    left: -184px;
+    margin-left: 287px;
+}
+#single-members .media-body h2{
     text-align: center;
   }
 .personal-info{
@@ -123,10 +181,16 @@
 
 
 @media(max-width:768px) {
- .members .media-left {
+
+
+  .degrees .nav-tabs>li{
+    width: 80px;
+    
+  }
+ #single-members .members .media-left {
     display: block;
   }
-  .members .media-left img{
+ #single-members .members .media-left img{
     margin : auto;
   }
   
@@ -134,33 +198,36 @@
     text-align: center;
   }*/
   
-  .media-body {
+ #single-members .media-body {
     display: block;
     /* padding: 23px 0px; */
     max-width: 400px;
     margin: auto;
   }  
-  .media-body {
+ #single-members .media-body {
     display: block;
     padding: 23px 0px;
   }
-  .personal-info-nav .para-n {
+  #single-members .personal-info-nav .para-n {
     font-size: 14px;
     margin: 2px 14px 0px -20px;
    }
 
-  .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+  /*.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
     padding: 32px 6px 32px 6px;
-   }
-   .nav-tabs>li{
+   }*/
+  /* .nav-tabs>li{
     width: 90px;
   }
   .nav-tabs {
     margin: -97px 0px 48px 19px;
-}
+}*/
 }
 
 @media(max-width: 600px) {
+  #about .news-box .news:before{
+     left: 12px;
+  }
   .news{
     padding: 12px 9px 4px;
   }
@@ -179,9 +246,23 @@
 }
 
 @media(max-width: 468px) {
+   .staffs .margin-neu {
+    margin: 0px 0px;
+}
+  
+  .collborator .semi-header {
+      left: -215px;
+      margin-left: 266px;
+  }    
   /*.logo {
     margin-top: 40px;
    } */
+   .upper-header .margin-r6{
+     margin: 0px -1px;
+   }
+   .apply-infos {
+    padding: 61px 2px;
+}
   .header-info {
    
     margin-top: 14px;
@@ -197,9 +278,9 @@
     margin: 21px 2px 15px
   }
   
-  .media-body .para-n{
+  /*.media-body .para-n{
     font-size: 12px;
-  }
+  }*/
 
   .qualification .card-box{
     height: 845px;
@@ -221,6 +302,21 @@
  
 }
 
+@media(max-width: 415px){
+  #member .media-body{
+    display: block;
+  }
+   #member .media .media-left{
+    display: block;
+  }
+
+  #member .media img{
+    margin: auto;
+  }
+}
+
 @media(max-width: 380px) {
+
+
 
 }
