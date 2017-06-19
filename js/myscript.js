@@ -14,6 +14,13 @@ $(function() {
       return false;
   }); 
 
+
+  $('#navlist a').click(function(e) {
+    e.preventDefault(); //prevent the link from being followed
+    $('#navlist a').removeClass('selected');
+    $(this).addClass('selected');
+});
+                                  
  
 //index page owl carousel
 $('#owl1').owlCarousel({
