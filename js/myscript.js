@@ -7,6 +7,7 @@ $(function() {
   **********************************************************
   */// slider
   //Initialise Bootstrap Carousel Touch Slider
+  //scroll to a section
   $('a[href="#research"],a[href="#education"],a[href="#experience"],a[href="#publication"],a[href="#service"]').click(function(){
       $('html,body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top - 100 + 'px'
@@ -14,17 +15,30 @@ $(function() {
       return false;
   }); 
 
-
+//tab show
 $('#mytabs a:first').tab('show');
 
-
+//active class
   $('#navlist a').click(function(e) {
     e.preventDefault(); //prevent the link from being followed
     $('#navlist a').removeClass('selected');
     $(this).addClass('selected');
 });
                                   
- 
+ //modal
+ $('.modal').on('show.bs.modal', function () {
+        if ($(document).height() > $(window).height()) {
+            // no-scroll
+            $('body').addClass("modal-open-noscroll");
+        }
+        else {
+            $('body').removeClass("modal-open-noscroll");
+        }
+    });
+    $('.modal').on('hide.bs.modal', function () {
+        $('body').removeClass("modal-open-noscroll");
+    });
+    
 //index page owl carousel
 $('#owl1').owlCarousel({
     loop:true,

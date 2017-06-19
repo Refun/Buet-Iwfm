@@ -228,7 +228,7 @@
 }
 
 @media(max-width: 600px) {
-  #about .news-box .news:before{
+  #home-about .news-box .news:before{
      left: 12px;
   }
   .news{

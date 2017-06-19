@@ -6,6 +6,7 @@ font-family: 'Raleway', sans-serif;*/
 
 body{
     overflow-x: hidden;
+    padding-right: 0 !important 
 }
 
 
@@ -18,6 +19,19 @@ a.red-post{
   top: 165px;
   border-radius: 0px;
 }
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
 
 /*ABOUT */
 .about{
