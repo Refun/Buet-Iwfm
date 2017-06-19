@@ -15,6 +15,9 @@ $(function() {
   }); 
 
 
+$('#mytabs a:first').tab('show');
+
+
   $('#navlist a').click(function(e) {
     e.preventDefault(); //prevent the link from being followed
     $('#navlist a').removeClass('selected');
