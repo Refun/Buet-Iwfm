@@ -186,42 +186,10 @@
     border-right: 1px solid #dfc7c8;
 }
 
- .facilites .owl-theme .owl-dots .owl-dot span{
-   background:#fff;
-   width: 14px;
-   height: 14px;  
-}
-.facilites  .owl-theme .owl-dots .owl-dot.active span{
-     background: #800000;
-    border: 1px solid #fff;
-    width: 15px;
-    height: 15px;
-  
-}
-
- .facilites .owl-theme .owl-nav{
-    display:none;
-}
-
- .facilites .semi-header{
-    left: 79px;
- }
-
- .facilites .owl-theme .owl-dots, .owl-theme .owl-nav {
-    text-align: right;
-    -webkit-tap-highlight-color: transparent;
-    position: relative;
-    top: -99px;
-    right: 60px;
-}
-
  
 
-.owl-carousel .item {
-  width: : 100%;
-  display: block;
-  vertical-align: middle;
-  
+.facilites .item img{
+   width: 100%;
 }
 
 .facilites .apply-infos{
@@ -243,12 +211,12 @@
 }
 
 #assist .tab{
-       height: 355px;
+      height: auto;
     overflow-y: hidden;
 }
 
 #assist .tab-content{
-        padding: 12px 10px 18px;
+        padding: 12px 10px 12px;
         height: auto;
 }
 
