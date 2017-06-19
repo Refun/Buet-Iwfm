@@ -6,8 +6,21 @@
     .personal-info-nav{
     float: right;
     margin-right: 18px;
-
 }
+.personal-info-nav .info-link a{
+   font-size: 16px;
+  
+    text-align: justify;
+    line-height: 25px;
+    transition: all .2s;
+}
+.personal-info-nav .info-link a:hover{
+    color:#000;
+   
+   
+}
+
+
 .bottomMenu {
     display: none;
     position: fixed;
