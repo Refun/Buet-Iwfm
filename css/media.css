@@ -4,7 +4,9 @@
 .contact_map .shapeit_headings {
 	margin-left: 62px;
 }
-
+.counter_bg {
+    left: 30px;
+}
 .ending .navbar-nav {
 	margin-left: 224px;
 }
@@ -174,13 +176,42 @@
 }
 
 @media(max-width: 992px) {
-  
+.clients{
+        padding: 60px 0px 0px;
+  }
+  .icons {
+    top: -25px;
+  }  
+  .counter-with{
+    top: 6px;
+    left: -2px;
+  }
+  .one,.two,.three{
+    display: block!important;
+    text-align: center;
+  }
+   
+  /*.counter{
+    font-size: 40px;
+  }*/
+  .counter-text{
+   /* font-size: 20px;*/
+    left: 4px;
+    top: -6px;
+  }
 }
 
 /*gym*/
 
 
 @media(max-width:768px) {
+  
+   .project .news {
+    padding: 27px 9px 0px;
+  }
+  .para-n{
+    text-align: center;
+  }
 
 
   .degrees .nav-tabs>li{
@@ -227,7 +258,9 @@
 }*/
 }
 
+
 @media(max-width: 600px) {
+  
   #home-about .news-box .news:before{
      left: 12px;
   }
@@ -249,6 +282,13 @@
 }
 
 @media(max-width: 468px) {
+  .two{
+        margin: 0px 46px 0px;
+  }
+  .pagination>li>a, .pagination>li>span{
+    padding: 11px 12px;
+    font-size: 14px;
+  }
    .staffs .margin-neu {
     margin: 0px 0px;
 }

@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+
 
 /*for raleway font
 font-family: 'Raleway', sans-serif;*/
 
 body{
-    overflow-x: hidden;
-    padding-right: 0 !important 
+   font-family: 'Roboto', sans-serif;
+    overflow-x: hidden!important;
+    padding-right: 0 !important; 
 }
 
 
@@ -235,7 +236,7 @@ a.red-post{
  }   
 div#owl1{
   background: #f7f7f7;
-    padding: 77px 0px 77px;
+    padding: 95px 0px 95px;
 }
 #owl1 .owl-item.active{
   margin-right: -47px;

@@ -126,7 +126,9 @@ input::placeholder {
   #publication .para-r{
      color: #ac1f24;
   }
-
+ .education .para-b{
+    font-weight: 700!important;
+}
    
 .complete{
     display:none;
@@ -143,12 +145,13 @@ input::placeholder {
 
 
 .expand{
-   list-style-type: none;
-   color: #ac1f24;
+  list-style-type: none;
+    color: #ac1f24;
     font-size: 16px;
-   margin: 0px -15px;
-   cursor: pointer;
-   font-style: italic;
+    margin: 0px -17px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 600;
 }
 .expand:before{
    position: absolute;

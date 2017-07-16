@@ -4,6 +4,7 @@
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
+
 .upper-header{
   padding: 15px 0px;
 }
@@ -71,6 +72,11 @@
   
     white-space: nowrap;
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+ 
  .dropdown-menu>li>a:hover {
     color: #fff;
     text-decoration: none;
@@ -473,5 +479,13 @@
     }
 
 }
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+display: block;    
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
 
 /*END OF SLIDER*/
