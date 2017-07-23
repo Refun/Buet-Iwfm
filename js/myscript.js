@@ -1,6 +1,8 @@
 
 $(function() {
  "use strict";
+
+
    /*
   **********************************************************
   * OPAQUE NAVBAR SCRIPT
@@ -180,6 +182,28 @@ $(document).scroll(function () {
     }
 
 });
+
+
+//magnificpop up
+
+
+   
+
+    $('.image-popups').magnificPopup({
+  delegate: 'a',
+  type: 'image',
+    mainClass: 'mfp-fade',
+  removalDelay: 500, //delay removal by X to allow out-animation
+   callbacks: {
+            beforeOpen: function () {
+                this.st.image.markup = this.st.image.markup.replace('mfp-figure', 'mfp-figure animated ' + this.st.el.attr('data-effect'));
+            }
+          },
+          closeOnContentClick: true,
+            closeBtnInside: false,
+  midClick: false // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
+
 
 //owl-carousel
 

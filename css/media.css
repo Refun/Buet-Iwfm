@@ -212,7 +212,9 @@
   .para-n{
     text-align: center;
   }
-
+.activities  .para-n{
+    text-align: left;
+  }
 
   .degrees .nav-tabs>li{
     width: 80px;
