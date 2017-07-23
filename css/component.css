@@ -256,6 +256,9 @@ a:focus {
 .margin-r30 {
     margin: 0px 31px;
 }
+.margin-b40{
+    margin-bottom: 40px!important;
+}
 .margin-r6 {
     margin: 0px 6px;
 }
