@@ -83,7 +83,7 @@
 }
 #input-search:active,
 #input-search:focus {
-    outline: 2px solid #c4c4c4;
+    border: 1px solid #c4c4c4;
 }
 .search-icon {
     position: absolute;
@@ -269,11 +269,19 @@ a:focus {
 .margin-t35{
     margin-top: 33px;
 }
+.mar-b10{
+    margin-bottom: 10px!important;
+
+    letter-spacing: -.6px;
+}
 .margin-t40 {
     margin-top: 40px;
 }
 .margin-r30 {
     margin: 0px 31px;
+}
+.margin-b8{
+    margin-bottom: 8px!important;
 }
 .margin-b40{
     margin-bottom: 40px!important;
@@ -571,7 +579,7 @@ h2 {
 .pagination span:hover{
     color: #fff;
 }   
-  a.selected {
+.pagination  a.selected {
     background-color: #ac1f24!important;
     color: #fff!important;
   }

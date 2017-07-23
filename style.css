@@ -307,3 +307,11 @@ div#owl1{
 .footer-bottom .para-add {
     margin-bottom: 5px;
   }  
+
+ .publications .btn-txt{
+  float: right;
+  margin-top: 52px;
+ } 
+.page-dectect nav{
+      margin-left: -22px!important;
+ }
