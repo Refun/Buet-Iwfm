@@ -334,5 +334,30 @@ div#owl1,#owl2{
 .page-dectect nav{
       margin-left: -22px!important;
  }
+ .contact_info{
+    padding: 80px 0px 100px;
+ }
+ .contact_info .para-n{
+  margin: 0px 0px;
+ }
 
-     padding: 30px 30px 25px;
+.contact_info .phn_contact{
+   margin: -16px 0px 18px;
+}
+
+.contact_info,.question img{
+  margin: 0px 0px 10px;
+}
+
+.contact_info.card-box{
+      padding: 49px 30px 25px;
+}
+.question .card-box{
+      padding: 50px 30px 40px;
+      background: #fff;
+}
+
+.question{
+      padding: 100px 0px 160px;
+    background: #fafafa;
+}
