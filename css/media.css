@@ -205,16 +205,31 @@
 }
 
 /*gym*/
+@media(max-width:768px) {
+.researches-name .nav-tabs>li{
+  margin: auto;
+}
 
+.nav-tabs>li {
+    float: none;
+ }   
+}
 
 @media(max-width:768px) {
  
    .project .news {
     padding: 27px 9px 0px;
   }
-  .para-n{
-    text-align: center;
+  .apply-infos .para-n{
+    text-align: left;
   }
+  .apply-infos .links {
+    padding: 0px 0px;
+}
+  .apply-infos .margin-l55 {
+     margin-left: 0px; 
+}
+
 .activities  .para-n{
     text-align: left;
   }
@@ -226,12 +241,12 @@
   }
 
   .degrees .nav-tabs>li{
-    width: 80px;
+    width: 200px;
+        float: none;
+    margin: auto;
     
   }
-  .degrees .nav-tabs>li>a{
-    font-size: 12px;
-  }
+  
  #single-members .members .media-left {
     display: block;
   }

@@ -115,21 +115,29 @@
     padding: 5px 13px 0px;
    
 }
-.degrees{
-      padding: 1px 0px 85px;
+.degrees {
+    padding: 56px 0px 0px;
+    background: #eee;
+    margin-bottom: 50px;
+}
+.degrees .news {
+    /* position: relative; */
+    cursor: pointer;
+    /*padding: 0px 0px;*/
+    /* background: #fff; */
+    margin: 11px 7px;
 }
 .degrees .news{
-    background: #eee;
-   margin: 11px 0px 49px;
-   height: 290px;
+   margin: 0px 10px;
+   background: none;
 }
 .education .education-list:before{
     background: #ac1f24;
 }
-.degrees .nav-tabs{
+/*.degrees .nav-tabs{
    margin: -97px 0px 55px 28px;
     
-}
+}*/
 
 .degrees .nav-tabs>li {
     margin-bottom: 0px;
@@ -344,4 +352,47 @@ now override the 3.3 new styles for modern browsers & apply opacity
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0);
     }
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: .8em;
+    text-align: right;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
 }
