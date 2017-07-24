@@ -3,6 +3,27 @@
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
 }
+.square-a{
+        position: relative;
+    background: #800000;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    width: 18px;
+    height: 9px;
+    left: -54px;
+    top: 47px;
+
+}
+.square-b{
+       position: relative;
+    background: #800000;
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    width: 18px;
+    height: 9px;
+    right: -61px;
+    top: -22px;
+}
 .square{
   
    position: relative;
@@ -21,6 +42,7 @@
     height: 1px;
     left: 6px;
     top: 1px;
+    margin-top: 2px
 }
 
 .no-gutter > [class*='col-'] {
@@ -121,6 +143,7 @@
     background: #dfc7c8;
     width: 100%;
     height: 1px;
+     margin-top: 2px;
 }
 .red-post {
     font-style: italic;
@@ -155,6 +178,11 @@
     font-size: 16px;
     font-weight: 500;
     text-align: justify;
+}
+.para-b-c{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
 }
 .para-b {
     font-size: 18px;
@@ -463,18 +491,7 @@ h2 {
     -o-transition: color .5s ease-out;
     transition: color .5s ease-out;
 }
-.kinative_para1 {
-    font-size: 18px;
-    color: #fff;
-    margin: 20px 0px;
-    max-width: 458px;
-}
-.kinative_para2 {
-    font-size: 16px;
-    text-align: justify;
-    max-width: 510px;
-    color: #454545;
-}
+
 .red_bold {
     background: transparent;
     font-weight: 700;

@@ -64,7 +64,6 @@ a.red-post{
     border-top: transparent;
     border-bottom: 1px solid #800000;
     background: #eee;
-    position: sticky;
     top: 1px;
     z-index: 9;
 }
@@ -231,33 +230,53 @@ a.red-post{
 .collborator{
      padding: 79px 0px 100px;
 }
-.collborator .semi-header {
+.collborator .left-m{
+  left: -94px;
+ } 
+/*.collborator .semi-header {
    left: -140px;
     margin-left: 339px;
- }   
-div#owl1{
+ }   */
+div#owl1,#owl2{
   background: #f7f7f7;
-    padding: 95px 0px 95px;
+       padding: 78px 0px 45px;
 }
-#owl1 .owl-item.active{
+#owl1,#owl2  .owl-item.active{
   margin-right: -47px;
 }
 .owl-carousel .owl-item img{
-  width: 150px;
-  height: 46px;
-  cursor: pointer;
-  margin: auto;
+  width: auto;
+    /* height: 46px; */
+    cursor: pointer;
+    margin: auto;
 }
-#owl .item img{
+/*#owl .item img{
   width: 150px;
   height: 20px;
-}
+}*/
 #owl .owl-stage{
   background: #eee;
 }
 /*COLLABORATOR*/
+.research_updates{
+  padding: 0px 0px 100px;
 
-
+}
+.research_updates .card-box{
+      padding: 35px 30px 23px;
+}
+.research_updates .item{
+    margin-bottom: 30px;
+}
+.collborator .semi-header:before{
+  display: none;
+}
+.left{
+  left: -78px;
+}
+.right{
+  right: -87px;
+}
 /*Footer */
 .footer{
     background-image: url(images/buetlogo_overlaybig.png);
@@ -315,3 +334,5 @@ div#owl1{
 .page-dectect nav{
       margin-left: -22px!important;
  }
+
+     padding: 30px 30px 25px;

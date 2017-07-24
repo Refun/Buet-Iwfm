@@ -84,7 +84,7 @@ $('#mytabs a:first').tab('show');
     });
     
 //index page owl carousel
-$('#owl1').owlCarousel({
+$('#owl1,#owl2').owlCarousel({
     loop:true,
     margin: 10,
     dots : false,
@@ -109,6 +109,35 @@ $('#owl1').owlCarousel({
         },
         1000:{
             items:5
+        }
+    }
+})
+
+$('#owl3').owlCarousel({
+    loop:true,
+    margin: 33,
+    dots : false,
+    nav:false,
+    loop: true,
+    rewind: true,
+    autoplay:true,
+    center: true,
+    mouseDrag: true,
+    stagePadding: 10,
+    autoplayTimeout: 500,
+    //stopOnHover:true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 1000,
+    autoplaySpeed:  400,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
         }
     }
 })
