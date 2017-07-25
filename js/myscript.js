@@ -41,7 +41,7 @@ function start_count(){
 
   {
 
-    duration: 20000,
+    duration: 5000,
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));
@@ -116,8 +116,8 @@ $('#owl1,#owl2').owlCarousel({
 $('#owl3').owlCarousel({
     loop:true,
     margin: 33,
-    dots : false,
-    nav:false,
+    dots : true,
+    nav:true,
     loop: true,
     rewind: true,
     autoplay:true,
@@ -125,7 +125,7 @@ $('#owl3').owlCarousel({
     mouseDrag: true,
     stagePadding: 10,
     autoplayTimeout: 500,
-    //stopOnHover:true,
+    navText: ["<img src='images/left-ar.png'>","<img src='images/right-ar.png'>"],
     autoplayHoverPause: true,
     autoplayTimeout: 1000,
     autoplaySpeed:  400,
@@ -137,7 +137,7 @@ $('#owl3').owlCarousel({
             items:2
         },
         1000:{
-            items:3
+            items:3,
         }
     }
 })
@@ -177,6 +177,11 @@ $('#owl3').owlCarousel({
     }
   });
   
+
+  //facility carousel
+  $('.carousel').carousel({
+      interval: 2000
+    })
 
 //text-overflow
 
