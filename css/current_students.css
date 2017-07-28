@@ -3,13 +3,13 @@
 }
 
 .welcome{
-   padding: 60px 0px 100px;
+   padding: 72px 0px 100px;
 }
 .welcome  .para-n{
 	max-width: 600px;
 }
  
-.elements .para-s,.para-b{
+.elements .para-n,.para-b{
 	text-align: center;
 }
 
@@ -22,7 +22,7 @@
 	    margin: -4px 0 2px;
 }
 .elements .card-box{
-	    padding: 42px 19px 40px;
+	    padding: 42px 8px 40px;
 	    background: #fff;
 }
 .activities{
