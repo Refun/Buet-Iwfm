@@ -180,6 +180,12 @@ a.red-post{
   height: 400px;
   background-size: cover;
 }
+#home_apply .apply-bg{
+   height: 422px;
+}
+#home_apply .links {
+    padding: 0px 44px;
+}
 .apply-infos{
       padding: 61px 39px;
 }
@@ -237,6 +243,7 @@ a.red-post{
    left: -140px;
     margin-left: 339px;
  }   */
+
 div#owl1,#owl2{
   background: #f7f7f7;
        padding: 78px 0px 45px;

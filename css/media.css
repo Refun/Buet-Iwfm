@@ -67,6 +67,9 @@
   /*.degrees .nav-tabs{
     border-bottom: 0px;
   }*/
+  #facilities .semi-header {
+    left: 24px;
+}
   .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
       padding: 7px 1px 7px 0px;
     display: block;
@@ -74,6 +77,7 @@
     text-align: center;
     margin: auto;
     border-top: 0px;
+    border-bottom: 1px solid #dfc7c8;
 }
  .course-name .para-n{
   max-width: 100%;
@@ -179,6 +183,10 @@
 }
 
 @media(max-width: 992px) {
+  .degrees .news {
+     margin: 0px 10px 38px; 
+    background: none;
+  }  
    .single_blog .card-box{
         width: 285px;
   }
@@ -209,6 +217,26 @@
 
 /*gym*/
 @media(max-width:768px) {
+  .publications .btn-txt {
+    float: none;
+    margin-left: 0px;
+    /* margin-top: 52px; */
+}
+  .qualification .education {
+    margin: 0px 0px 0px;
+}
+  .welcome .news-box .news:before {
+    
+    left: 12px;
+    }
+    .nav-tabs>li {
+    
+    width: 100%;
+}
+    .researches-name .nav-tabs>li {
+   
+    width: 100%;
+}
 .researches-name .nav-tabs>li{
   margin: auto;
 }
@@ -247,7 +275,7 @@
   }
 
   .degrees .nav-tabs>li{
-    width: 200px;
+    width: 100%;
         float: none;
     margin: auto;
     
@@ -314,9 +342,9 @@
 }
 
 @media(max-width: 468px) {
-  .two{
+/*  .two{
         margin: 0px 46px 0px;
-  }
+  }*/
   .pagination>li>a, .pagination>li>span{
     padding: 11px 12px;
     font-size: 14px;

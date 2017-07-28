@@ -6,8 +6,17 @@
         box-shadow: none;
         border-color: #EEEEEE;
     }
+ #facilities{
+  padding: 80px 0px 20px;
+ }   
 
+ #assist{
 
+    padding: 60px 0px 140px;
+ }
+#facilities .semi-header {
+    left: 77px;
+}
     .panel-title {
         font-size: 14px;
     }
@@ -128,7 +137,7 @@
     margin: 11px 7px;
 }
 .degrees .news{
-   margin: 0px 10px;
+       margin: 0px -43px 38px;
    background: none;
 }
 .education .education-list:before{
@@ -173,7 +182,7 @@
     margin-top: 46px;
 }
 .bor-b{
-    border-bottom: 1px solid #dfc7c8;
+    border-bottom: 0px;
 }
 .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{
     border-bottom: 0px;
@@ -184,20 +193,21 @@
 .table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
    padding: 22px 4px 22px 87px;
     width: 25%;
-    border-bottom: 1px solid #dfc7c8;
+    border-bottom: 0px;
 }
 .table-striped>tbody>tr:nth-of-type(odd){
     background: #fff;
 }
 
-.bd-r{
+/*.bd-r{
     border-right: 1px solid #dfc7c8;
-}
+}*/
 
  
 
 .facilites .item img{
    width: 100%;
+   height: 422px;
 }
 
 .facilites .apply-infos{
@@ -286,10 +296,10 @@ inspired from http://codepen.io/Rowno/pen/Afykb
 }
 
 #facilities .apply-header {
-    font-size: 22px;
+    font-size: 18px;
     position: relative;
-    top: 23px!important;
-    left: -51px!important;
+    top: 27px!important;
+    left: -57px!important;
     color: #800000;
 }
 .carousel-indicators li {

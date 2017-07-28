@@ -13,7 +13,7 @@
 	padding: 38px 30px 40px;
 }
 .facilites-right .card-box{
-   padding: 38px 30px 47px;
+      padding: 42px 30px 44px;
 }
 .para-s{
 	    line-height: 25px;
@@ -254,7 +254,7 @@ a.carousel-control.right {
 #instruments .owl-carousel .owl-item img {
     width: 100%;
 }
-#instruments .para-s {
+#instruments .para-n {
     text-align: center;
 }
 
@@ -262,3 +262,10 @@ a.carousel-control.right {
 #instruments .card-box {
     padding: 16px 30px 15px;
 }    
+
+#instruments .semi-header:before{
+  display: none;
+}
+.margin-t50 {
+    margin-top: 50px;
+}

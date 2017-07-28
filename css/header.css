@@ -35,6 +35,9 @@
     color: #fff;
 }
 
+
+
+
 .navbar-default .navbar-nav>.open>a,
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover {
@@ -56,6 +59,12 @@
     background-color: #b10000;
 }
 
+.navbar-default .navbar-nav>.active>a{
+     color: #fff;
+    text-decoration: none;
+    background-color: #b10000;
+}
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
@@ -73,7 +82,7 @@
 
 .dropdown-menu>li>a {
     display: block;
-    padding: 8px 0 10px 10px;
+    padding: 8px 22px 10px 22px;
     text-align: left;
     font-weight: 400;
     color: #fff;
