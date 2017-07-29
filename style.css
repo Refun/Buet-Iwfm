@@ -10,6 +10,9 @@ body{
     padding-right: 0 !important; 
 }
 
+#owl3 img{
+  width: 100%;
+}
 
 a.red-post{
     color: #800000;
