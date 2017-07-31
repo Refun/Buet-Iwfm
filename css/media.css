@@ -136,7 +136,9 @@
  
 }
  @media(max-width: 1200px) and (min-width: 768px) {
-
+   section.physical_facilitylab .item img{
+    height: 471px;
+   }
 }
 
 @media(max-width: 1200px) and (min-width: 458px) {
@@ -183,6 +185,24 @@
 }
 
 @media(max-width: 992px) {
+  
+  #home_apply .link-one {
+     margin-left: 0px;
+  }
+  .apply .semi-header {
+    left: 25px;
+ }
+  .research_updates .view_all_btn {
+    position: absolute;
+    /* right: 99px; */
+    box-shadow: 0px 0px 12.22px 0.78px rgba(0, 0, 0, 0.16);
+    color: #ac1f24;
+    padding: 12px 38px 4px;
+    display: inline-block;
+    margin-top: 0px;
+    left: 50%;
+    width: 167px;
+}
   .degrees .news {
      margin: 0px 10px 38px; 
     background: none;
@@ -217,6 +237,12 @@
 
 /*gym*/
 @media(max-width:768px) {
+
+  #activity .links {
+    padding: 0px 0px;
+    margin-left: 0px;
+}
+
   .publications .btn-txt {
     float: none;
     margin-left: 0px;

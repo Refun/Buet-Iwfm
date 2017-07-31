@@ -107,7 +107,7 @@ a.red-post{
 .tab{
     
     background: #eee;
-    height: 360px;
+    height: 368px;
     overflow-y: scroll;
 }
 .news{
@@ -127,6 +127,13 @@ a.red-post{
     left: 29px;
     top: 16px;
 }
+.news-link{
+    position: relative;
+    cursor: pointer;
+    padding: 16px 30px 9px;
+    background: #fff;
+    margin: 11px 7px;
+ }   
 .news-date{
     margin-left: 19px;
     margin-bottom: 6px;
@@ -186,9 +193,24 @@ a.red-post{
 #home_apply .apply-bg{
    height: 422px;
 }
-#home_apply .links {
-    padding: 0px 44px;
+
+
+#home_apply .link-one {
+        margin-left: 21px;
+ }       
+
+#home_apply .link-two {
+       padding: 0px 44px;
+    margin-left: -28px;
 }
+.link-one a, .link-two a{
+   color: #fff;
+   transition: all .3s;
+}
+
+.link-one a:hover, .link-two a:hover{
+   color: #000;
+  }
 .apply-infos{
       padding: 61px 39px;
 }
@@ -278,6 +300,16 @@ div#owl1,#owl2{
 .research_updates .item{
     margin-bottom: 30px;
 }
+.research_updates .view_all_btn{
+   position: absolute;
+    right: 99px;
+    box-shadow: 0px 0px 12.22px 0.78px rgba(0, 0, 0, 0.16);
+    color: #ac1f24;
+    padding: 12px 38px 4px;
+    display: inline-block;
+    margin-top: -92px;
+  } 
+  
 .collborator .semi-header:before{
   display: none;
 }
