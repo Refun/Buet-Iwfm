@@ -1,6 +1,15 @@
 
 $(function() {
 
+$(function() {
+      if (document.location.hash) {
+        setTimeout(function() {
+            window.scrollTo(window.scrollX, window.scrollY - 150);
+        }, 10);
+    }
+    window.setTimeout(offsetAnchor, 0);
+});
+// Set the offset when entering page with hash present in the url
 
    /*
   **********************************************************
