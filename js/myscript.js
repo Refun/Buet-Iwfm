@@ -1,6 +1,15 @@
 
 $(function() {
 
+$(function() {
+      if (document.location.hash) {
+        setTimeout(function() {
+            window.scrollTo(window.scrollX, window.scrollY - 150);
+        }, 10);
+    }
+    window.setTimeout(offsetAnchor, 0);
+});
+// Set the offset when entering page with hash present in the url
 
    /*
   **********************************************************
@@ -179,7 +188,7 @@ $('#owl3').owlCarousel({
   
 
   //facility carousel
-  $('.carousel').carousel({
+  $('#myCarousel').carousel({
       interval: 2000
     })
 
@@ -274,17 +283,7 @@ $(document).scroll(function () {
 
 $('#bootstrap-touch-slider').bsTouchSlider();
  
- //magnificpop up
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
 
-        disableOn:0,
-        fixedContentPos: false
-    });
  
 
 //wow
