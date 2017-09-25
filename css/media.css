@@ -185,7 +185,22 @@
 }
 
 @media(max-width: 992px) {
-  
+   .contact form{
+      padding: 0px 32px;
+   }  
+  .contact .left{
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .contact .right{
+    width: 100%
+  }
+  .contact .btn {
+    width: 110.5%;
+   } 
+  input#contact_name{
+     width: 100%!important;
+   }
   #home_apply .link-one {
      margin-left: 0px;
   }

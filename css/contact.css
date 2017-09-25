@@ -2,3 +2,79 @@
                 width: 100%;
                 height: 306px;
             }
+.contact{
+	padding-bottom: 100px;
+}
+.contact .semi-header:before{
+	display: none;
+}
+.contact .para-n{
+	    max-width: 516px;
+  
+    margin: 0px auto 40px;
+    text-align: center;
+}
+.contact textarea.form-control {
+    height: 136px;
+}
+.form-horizontal{
+	line-height: 0px;
+}
+.form-control{
+	    border: 1px solid #d79496;
+	    box-shadow: none;
+	    height: 50px;
+    margin: 10px auto 0px;
+}
+
+.contact .card-box{
+	 line-height: 400px;
+  text-align:center; 
+  vertical-align:middle;
+}
+
+.contact form{
+	max-width: 615px;
+    margin: -23px auto 0px;
+}
+
+.contact .btn {
+    width: 105.5%;
+    padding: 12px 0px;
+    font-size: 16px;
+    background: transparent;
+    font-size: 1em;
+    border-radius: 0px;
+    font-weight: 700;
+    background: #b10000;
+    height: 50px;
+    color: #fff;
+    -webkit-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+    text-decoration: none;
+    /* margin: 0px 10px; */
+    border: none;
+    margin-left: -15px;
+    border: 0px;
+ }   
+
+ .contact .btn:hover{
+ 	background: #fff;
+    color: red;
+    border: 1px solid #b10000;
+
+ }
+
+ .contact .left{
+ 	width: 46.5%;
+     float: left;
+ }
+
+ .contact .left{
+ 	width: 46.5%;
+     float: left;
+ }
+ .contact .right{
+ 	width: 46.5%;
+    float: right;
+ }
